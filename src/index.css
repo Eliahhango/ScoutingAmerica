@@ -1,0 +1,10 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body, #root { width: 100%; min-height: 100vh; overflow-x: hidden; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+.mirrored-page { width: 100%; min-height: 100vh; }
+.mirrored-page img { max-width: 100%; height: auto; }
+.loading-screen { display: flex; justify-content: center; align-items: center; min-height: 100vh; font-size: 1.2rem; color: #333; }
+.error-page { display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100vh; }
+.error-page h2 { margin-bottom: 1rem; }
+.error-page a { color: #0066cc; }
+.preload-style { display: none; }
